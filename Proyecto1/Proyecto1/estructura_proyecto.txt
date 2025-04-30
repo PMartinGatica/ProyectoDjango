@@ -1,0 +1,18 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es C676-DBFB
+C:.
+|   asgi.py
+|   estructura_proyecto.txt
+|   settings.py
+|   urls.py
+|   views.py
+|   wsgi.py
+|   __init__.py
+|   
+\---__pycache__
+        settings.cpython-313.pyc
+        urls.cpython-313.pyc
+        views.cpython-313.pyc
+        wsgi.cpython-313.pyc
+        __init__.cpython-313.pyc
+        
