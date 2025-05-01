@@ -1,0 +1,28 @@
+2025-04-16 10:51:09-0300: sUsingService=false
+2025-04-16 10:51:09-0300: sUpdateSilently=false
+2025-04-16 10:51:09-0300: gUseSecureOutputPath=false
+2025-04-16 10:51:09-0300: useService=false
+2025-04-16 10:51:09-0300: gIsElevated=false
+2025-04-16 10:51:09-0300: Writing status to file: applying
+2025-04-16 10:51:09-0300: Performing a replace request
+2025-04-16 10:51:09-0300: PATCH DIRECTORY C:\ProgramData\Mozilla-1de4eec8-1241-4177-a864-e594e8d1fb38\updates\CB6A3063D2E7DC6B\updates\0
+2025-04-16 10:51:09-0300: INSTALLATION DIRECTORY C:\Calidad\JCS_ETL_PIPELINE\App\Firefox
+2025-04-16 10:51:09-0300: WORKING DIRECTORY C:\Calidad\JCS_ETL_PIPELINE\App\Firefox\updated
+2025-04-16 10:51:09-0300: Checking whether elevation is needed
+2025-04-16 10:51:09-0300: Successfully opened lock file
+2025-04-16 10:51:09-0300: Going to update via this updater instance.
+2025-04-16 10:51:09-0300: Begin moving destDir (C:\Calidad\JCS_ETL_PIPELINE\App\Firefox) to tmpDir (C:\Calidad\JCS_ETL_PIPELINE\App\Firefox.bak)
+2025-04-16 10:51:09-0300: rename_file: proceeding to rename the directory
+2025-04-16 10:51:09-0300: Begin moving newDir (C:\Calidad\JCS_ETL_PIPELINE\App\Firefox.bak/updated) to destDir (C:\Calidad\JCS_ETL_PIPELINE\App\Firefox)
+2025-04-16 10:51:09-0300: rename_file: proceeding to rename the directory
+2025-04-16 10:51:09-0300: Now, remove the tmpDir
+2025-04-16 10:51:09-0300: ensure_remove: failed to remove file: C:\Calidad\JCS_ETL_PIPELINE\App\Firefox.bak/updater.exe, rv: -1, err: 13
+2025-04-16 10:51:09-0300: ensure_remove_recursive: unable to remove directory: C:\Calidad\JCS_ETL_PIPELINE\App\Firefox.bak, rv: -1, err: 41
+2025-04-16 10:51:09-0300: Removing tmpDir failed, err: -1
+2025-04-16 10:51:09-0300: remove_recursive_on_reboot: failed to schedule OS reboot removal of file: C:\Calidad\JCS_ETL_PIPELINE\App\Firefox\tobedeleted\rep82caf7f9-8fc6-49ee-817f-c48bde57dae1
+2025-04-16 10:51:09-0300: succeeded
+2025-04-16 10:51:09-0300: Writing status to file: succeeded
+
+2025-04-16 10:51:09-0300: calling QuitProgressUI
+2025-04-16 10:51:09-0300: Running LaunchCallbackAndPostProcessApps
+2025-04-16 10:51:09-0300: Launching Windows post update process

@@ -1,0 +1,35 @@
+# Entorno Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Config Django
+*.sqlite3
+/media/
+staticfiles/
+
+# Dependencias
+node_modules/
+frontend/node_modules/
+
+# Archivos de build
+dist/
+build/
+*.log
+
+# Downloads, Data temporales
+Data/
+Descargas/
+*.xlsx
+*.csv
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Configs de entorno
+.env

@@ -1,0 +1,14 @@
+pip
+google-auth-httplib2
+google-auth-oauthlib
+xlrd
+lxml
+openpyxl
+pandas
+schedule
+selenium
+google-api-python-client
+pyarrow
+xlsxwriter
+psutil
+

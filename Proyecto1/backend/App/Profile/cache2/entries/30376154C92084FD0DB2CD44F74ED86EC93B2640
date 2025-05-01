@@ -1,0 +1,436 @@
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+<!--<base target="_top">--><base href="." target="_top" />
+<!-- Begin Intranet Standard CSS / Javascript Calls --> 
+
+<style type="text/css">
+
+
+.hide
+{
+   display:none;
+}
+</style>
+<link type="text/css" rel="Stylesheet" href="../Style/intranet.css" />
+
+<style type="text/css">.stctb{width:auto;height:auto;border-style:none;background-color:transparent;background-image:none;}
+.stctr{width:auto;height:auto;border-style:none;background-color:transparent;background-image:none;}
+.stctd{height:auto;border-style:none;background-color:transparent;background-image:none;}
+.stcdv{width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;background-image:none;}
+.stca{border-style:none;margin:0px;padding:0px;background-color:transparent;background-image:none;}
+</style>
+
+
+    
+ <script type="text/javascript">
+ function pageLoad()
+    {
+        if (typeof (Sys) !== 'undefined') Sys.Application.notifyScriptLoaded();
+    }
+</script>
+<title>
+MQS Home
+</title>
+    <!-- Set tab icon. -->
+    <link rel="shortcut icon" href="Images/icon_016.png" type="image/x-icon" />
+
+    <style type="text/css">
+        .ajax__tab_xp
+        {
+        }
+    </style>
+    <script language="javascript"type="text/javascript">
+      
+    </script>
+<link href="/WebResource.axd?d=GX8CqKRb8jBEYZKu5iAgQeCXhJSlRPxSMqfx993SuNgSEieIXRKnd__OhY0sSDHojn16qm7hVEgGSZweFI3AWmwNc3G0p3sw_KYfMPqc_P5YJmayFGg3EqSeLVtw2lbw2Y9G43JSR27LIiElxDDrxg2&amp;t=634092638420000000" type="text/css" rel="stylesheet" /><title>
+
+</title></head>
+<body>
+<form name="aspnetForm" method="post" action="/home/Home.aspx?enc=QtWu+JHxaFAsLlbKXGcLn/oMzBQqTNPbBxdVRPOnLhN7Iz5gBFRrMDsClRwYKx8GYgEQDtl6XrG0s/ryr4k1D9N4HskZokFpSq2fmbHVIEaNh/6qvGY/Ui1LWG/ibevB" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_ToolkitScriptManager1_HiddenField" id="ctl00_ToolkitScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQ5NTYxODQ4Nw9kFgJmD2QWAgIDDxYCHgZhY3Rpb24FlAEvaG9tZS9Ib21lLmFzcHg/ZW5jPVF0V3UrSkh4YUZBc0xsYktYR2NMbi9vTXpCUXFUTlBiQnhkVlJQT25MaE43SXo1Z0JGUnJNRHNDbFJ3WUt4OEdZZ0VRRHRsNlhyRzBzL3J5cjRrMUQ5TjRIc2tab2tGcFNxMmZtYkhWSUVhTmgvNnF2R1kvVWkxTFdHL2liZXZCFgYCBw8PFgIeBFRleHQFB1VOS05PV05kZAIJDw8WAh8BBQwxNzkuNjIuNjIuNDVkZAILD2QWAgIBD2QWBAIBDw8WAh4HVmlzaWJsZWdkFgQCAQ8WAh4JaW5uZXJodG1sBQ5MT0dJTiBSRVFVSVJFRGQCAw8WAh8DBTxJZiB5b3UgYXJlIGEgTW90b3JvbGEgTW9iaWxpdHkgZW1wbG95ZWUsIHBsZWFzZSBzaWduLWluLiAgDQpkAgMPDxYCHwJnZGQYAQUSY3RsMDAkbWFpbiR0YWJNYWluDw9kZmR8fELroacesiV+nQ3q9ivfstY2ohGAILsD+/H1vmBixw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=d4TjQKF0ZtxwFyO7S2k_7NklNLh8XaCC5uWm3T_7brOk5fb-zI1jZrMYYUuqDPVwh_OrkBgVgtOfiDclCP455y1YWArr2YzyfWlzRHzIE1M1&amp;t=638628027619783110" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=7r154ipCpeBtasVO9Zp-Ld3il53wubr7wrmcYasudLfkPjKP1x4P7jIoEQF6ZmsVYXKe_1rN3QiPkjvn8kCcV35bBQYpHz2d9K3FuVdrPUAfzSbqltIr-KOgNBwPIG11Ii2hdTq4QBfKv2f-p4pEu3xMxQp3fz3Ors3JvKMXUbY1&amp;t=ffffffffc7a8e318" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5iUUG81_uivVF7cQdP4njxxFFFrwbcgKIMPD-MgDe0CbBH0EzTA_TQKtXQ63CHFsrsZxtNFBq2QcFerH_SehTQK2CNpNadqVwt_oDodKUf0RCSOFFhK4IRWexcKGkILh0&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ZxsM94wQ7huA0cu9JsUFZ7kfilXaVr-R5hFeqed5keTBlQF_e-uXAH6n-xvrshdKO4_uFBSv33_6yLFSmB7A5HDNjTSmTzS22AVisnkSBKISL-dYA34lmmaxkzc22BCy_1p-Pxtwo19F9xmc2iShEg2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F22CBDD" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQpDSQN6VzWqan7Jmy7sA3P8QiPJjCrvge/afhZwVZ13Jdpeeu4sR9cWhI0RRss1/VydKDvd2X+NoxjOT831TJImHbIz4PF+YcOgOAqqI/M6gnrpzfknXE6U2rjjuHDcAc=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ToolkitScriptManager1', 'aspnetForm', ['tctl00$main$uPnlLogin',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+	<table cellspacing="0" cellpadding="0" border="0" width="100%">
+		<tbody><tr>
+			<td valign="top" align="left">
+
+<!-- Begin: Header -->
+<div class="GlobalBanneriMoto">
+<table width="100%" cellpadding="0" cellspacing="0" class="header">
+  <tbody><tr>
+    <td width="60%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="20%"><a href="">&nbsp;&nbsp;&nbsp;<img src="../Images/moto_white.png" alt="return to i'moto" width="146" height="45" border="0"  /></a></td>
+        <td width="80%" nowrap="nowrap" class="title1" style=" font-size:20px; color:White; vertical-align:bottom; text-align:right;">Motorola Quality System (MQS)</td>
+      </tr>
+
+    </tbody></table></td>
+    <td width="40%">
+    <div id="ctl00_divLoginHead" style="position:relative; width:100%; text-align:right;">
+                    <span style="position:relative;font-size: 10pt; color:White; width:100%;"><strong>Welcome</strong>
+                                                    <span id="ctl00_FullUserName" style="font-weight:normal;"></span>
+                                                    <img src="/home/Images/USA-flag-small.gif" alt="USA" />
+                                                    <br />
+                                                    <br />
+                                                
+                                                    </span>
+                </div>
+    </td>
+  </tr>
+</tbody></table>
+
+<table class="subheaderdropshadow">
+  <tbody><tr style=" height:20px; color:White; vertical-align:middle; ">
+    <td align="right" style="font-size:12px;vertical-align:middle; ">
+    <span id="ctl00_lblLoc" class="hide"></span>
+    <strong>Location: </strong>&nbsp;<span id="ctl00_lblLocation">UNKNOWN</span>&nbsp;&nbsp; | &nbsp;&nbsp; 
+    <strong>IP Address: </strong>&nbsp;<span id="ctl00_lblIp">179.62.62.45</span>&nbsp;&nbsp;
+    </td>
+  </tr>
+</tbody></table>
+</div>
+<!-- End: Header -->
+
+<!-- Begin: Bread Crumb -->
+<table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="0" width="100%" class="HorizontalNavigationB" style="padding-right: 0px;">
+      <!--
+nodeTitle: Give Feedback; nodeDescription:; nodeLevel:0; hiddenLevel:0; visibile?:true<br />
+-->
+      <!--
+visibile?:true<br />
+-->
+      <tbody><tr>
+        <td class="container"><table border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+          </tr>
+        </tbody></table></td>
+      </tr>
+      <tr>
+        <td class="container"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+          <tbody>
+        </tbody></table></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+<!-- End: Bread Crumb -->
+
+<!-- Begin: Page Content -->
+<table width="96%" border="0" cellspacing="0" cellpadding="0" align="center" style=" min-height:500px;">
+  <tbody><tr>
+    <td width="100%" align="left" valign="top" bgcolor="#FFFFFF" class="landingcontent">
+      <table width="100%" border="0" cellpadding="10" cellspacing="0">
+        <tbody><tr>
+          <td>
+            <table width="100%" border="0" cellpadding="8" cellspacing="0">
+              <tbody><tr>
+                <td>
+                    
+    <div id="ctl00_main_divMain" style="font-size: 12px; width: 100%;" nowrap="nowrap">
+        <table style="width: 100%;">
+            <tr>
+                <td style="width: 15%;" nowrap="nowrap" class="chromebg">
+                </td>
+                      
+                <td style="width: 70%; position: relative;">
+                    <div id="ctl00_main_pnlInfoBar" style="border-color:Maroon;border-width:2px;border-style:Solid;">
+	
+                        <br />
+                        <table style="font-size: 12px; width: 100%;">
+                            <tr style="font-size: 12px; width: 100%;">
+                                <td style="font-size: 16px; width: 100%; text-align: center; font-weight: bold; color: Maroon;"
+                                    nowrap="nowrap">
+                                    <span id="ctl00_main_spnIPStatus" nowrap="nowrap">LOGIN REQUIRED</span>
+                                </td>
+                            </tr>
+                            <tr style="font-size: 12px; width: 100%;">
+                                <td style="font-size: 12px; width: 100%; text-align: center; color: Maroon;" nowrap="nowrap">
+                                    <span id="ctl00_main_spnLocInfo" nowrap="nowrap">If you are a Motorola Mobility employee, please sign-in.  
+</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                    
+</div>
+                  
+                    <div id="ctl00_main_pnlLogin" style="border-color:#333333;">
+	
+                      <br />
+                        <div style="vertical-align: middle;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" class="PageHeader"
+                                summary="Layout table for Page Header module.">
+                                <tr class="bg">
+                                    <td class="flag" width="100%" style="font-size: 14px;">
+                                        <h1>
+                                            Sign in to Motorola</h1>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="font-size: 10px;">
+                            <br />
+                            <span style="font-size: 11px;">Please sign in with your <b>User ID</b> and <b>Motorola
+                                Applications Directory Password</b>
+                                <br />
+                                <br />
+                                <b><i>Please Note:</i></b> If you do not have a User ID and Password go to <a href="http://password.mot-mobility.com">
+                                    password.mot.com</a> </span>
+                        </div>
+                        <div id="ctl00_main_uPnlLogin">
+		
+                                <br />
+                                <div style="background-color: White; vertical-align: middle;">
+                                    <br />
+                                    <hr style="color: Gray;" />
+                                    <table class="LoginBox" style="width: 50%;">
+                                        <tr>
+                                            <td>
+                                                <br />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;" colspan="3">
+                                                <div id="ctl00_main_UpdateProgress1" style="visibility:hidden;display:block;">
+			
+                                                        <div style="padding-left: 10px;">
+                                                            <table>
+                                                                <tr>
+                                                                    <td style="vertical-align: middle;">
+                                                                        <img src="Images/loadinfo_blue.gif" id="ctl00_main_imgProgress" alt="Validating User" />
+                                                                    </td>
+                                                                    <td style="vertical-align: middle;">
+                                                                        <span id="ctl00_main_spnVlaidate" style="font-size: 12px; font-weight: bold;">Validating
+                                                                            User...</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    
+		</div>
+                                            </td>
+                                        </tr>
+                                            <!--[if lt IE 8]>
+                                             <tr bgcolor="#FFFF00"><td width="100%" colspan="3"><b>Internet Explorer IE 6.x and 7.x not supported.  Please use Chrome, Firefox, or IE8 or newer.</b></td></tr>
+                                            <![endif]-->
+                                        <tr>
+                                            <td style="width: 20%; vertical-align: middle; font-size: 12px;">
+                                                User ID
+                                            </td>
+                                            <td style="width: 20%; vertical-align: middle;">
+                                                <input name="ctl00$main$txtUserID" type="text" id="ctl00_main_txtUserID" tabindex="1" />
+                                            </td>
+                                            <td style="vertical-align: middle; font-size: 11px;">
+                                                <span id="ctl00_main_RequiredFieldValidator1" title="UserName is required." style="color:Red;visibility:hidden;">* Please enter User Name</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%; vertical-align: middle; font-size: 12px;">
+                                                Password
+                                            </td>
+                                            <td style="width: 20%; vertical-align: middle;">
+                                                <input name="ctl00$main$txtPassword" type="password" id="ctl00_main_txtPassword" tabindex="2" />
+                                            </td>
+                                            <td style="vertical-align: middle; font-size: 11px;">
+                                                <span id="ctl00_main_RequiredFieldValidator2" title="Password is required." style="color:Red;visibility:hidden;">* Please enter password</span>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle;">
+                                            <td style="vertical-align: middle;">
+                                                <input type="submit" name="ctl00$main$btnLogin" value="LOGIN" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$main$btnLogin&quot;, &quot;&quot;, true, &quot;ValidLoginEntry&quot;, &quot;&quot;, false, false))" id="ctl00_main_btnLogin" tabindex="3" style="color:White;background-color:#272727;border-color:Gray;border-width:1px;border-style:solid;font-size:10px;height:23px;" />
+                                            </td>
+                                            <td colspan="2" style="vertical-align: middle; font-size: 11px;">
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br />
+                                    <br />
+                                    <hr style="color: Gray;" />
+                                    <br />
+                                </div>
+                            
+	</div>
+                    
+</div>
+
+                    
+                </td>
+                
+                <td style="width: 15%;" class="chromebg">
+                </td>
+            </tr>
+        </table>
+        <br />
+    </div>
+    <script type="text/javascript" language="javascript">
+        if (typeof (Sys) !== 'undefined') Sys.Application.notifyScriptLoaded();
+    </script>
+
+                </td>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+        </tbody></table>
+  </td>
+  </tr>
+  </tbody></table>
+<br />
+<!-- End: Page Content -->
+
+<!-- Begin: Footer -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+
+    <td class="GlobalFooteriMoto">Send any comments to: EJW011@motorola.com | <a href="http://intranet.mot-mobility.com/privacy" class="linkblue">Privacy Practices</a><br />
+Â© Copyright Motorola Mobility LLC - All rights reserved. </td>
+  </tr>
+</tbody></table>
+
+<!-- begin: Google Analytics: PRODUCTION: my.mot-mobility.com -->
+
+<!-- end:  Google Analytics: PRODUCTION: my.mot-mobility.com -->
+
+
+
+<!-- End: Footer -->
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_main_RequiredFieldValidator1"), document.getElementById("ctl00_main_RequiredFieldValidator2"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_main_RequiredFieldValidator1 = document.all ? document.all["ctl00_main_RequiredFieldValidator1"] : document.getElementById("ctl00_main_RequiredFieldValidator1");
+ctl00_main_RequiredFieldValidator1.controltovalidate = "ctl00_main_txtUserID";
+ctl00_main_RequiredFieldValidator1.errormessage = "Please enter User Name";
+ctl00_main_RequiredFieldValidator1.validationGroup = "ValidLoginEntry";
+ctl00_main_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_main_RequiredFieldValidator1.initialvalue = "";
+var ctl00_main_RequiredFieldValidator2 = document.all ? document.all["ctl00_main_RequiredFieldValidator2"] : document.getElementById("ctl00_main_RequiredFieldValidator2");
+ctl00_main_RequiredFieldValidator2.controltovalidate = "ctl00_main_txtPassword";
+ctl00_main_RequiredFieldValidator2.errormessage = "Please enter password";
+ctl00_main_RequiredFieldValidator2.validationGroup = "ValidLoginEntry";
+ctl00_main_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_main_RequiredFieldValidator2.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_ToolkitScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":0,"dynamicLayout":false}, null, null, $get("ctl00_main_UpdateProgress1"));
+});
+
+document.getElementById('ctl00_main_RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_main_RequiredFieldValidator1'));
+}
+
+document.getElementById('ctl00_main_RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_main_RequiredFieldValidator2'));
+}
+//]]>
+</script>
+</form>
+</body>
+</html>
+ÿXZØ_J           h ¸Hc?h ¸   ×    O^partitionKey=%28https%2Cmotorola.com%29,:https://mqs.motorola.com/home/Home.aspx?enc=QtWu+JHxaFAsLlbKXGcLn/oMzBQqTNPbBxdVRPOnLhN7Iz5gBFRrMDsClRwYKx8GYgEQDtl6XrG0s/ryr4k1D9N4HskZokFpSq2fmbHVIEaNh/6qvGY/Ui1LWG/ibevB strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+cache-control: private
+content-type: text/html; charset=utf-8
+server: Microsoft-IIS/10.0
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+x-ua-compatible: IE=9; IE=8; IE=6; IE=5
+date: Wed, 16 Apr 2025 20:06:15 GMT
+content-length: 20696
+X-Firefox-Spdy: h2
+ original-response-headers cache-control: private
+content-type: text/html; charset=utf-8
+server: Microsoft-IIS/10.0
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+x-ua-compatible: IE=9; IE=8; IE=6; IE=5
+date: Wed, 16 Apr 2025 20:06:15 GMT
+content-length: 20696
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 289 net-response-time-onstop 294   PØ

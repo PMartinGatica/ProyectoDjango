@@ -1,0 +1,1631 @@
+/* Motorola Mobility Intranet.css - Last Modified 05-09-2011 */
+
+/*=========================================*/
+/*===== BASE STYLES =======================*/
+/*=========================================*/
+body {
+background-color: #d8d9db;
+margin:0px 0px 0px 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+	font-size: 0.71em;
+	font-family: Arial, Helvetica, sans-serif;
+	empty-cells: show;
+	vertical-align: top;
+}
+
+label {
+	margin: 0;
+	padding: 0;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+input.checkbox,
+input.radio {
+	margin: 0 5px 2px 5px;
+}
+h1 {
+font-size: 1.4em;
+margin:	0;
+}
+h2, h3, h4, h5	{
+	font-size: 100%;
+	margin:	0;
+	}
+a:link {
+	font-size: 1.0em;
+	color: #0000ff;
+}
+a:visited {
+	color: #0000ff;
+}
+
+.grid0, .grid1, .grid2 {
+	padding: 0;
+	margin: 4px 0 0;
+}
+.grid1,
+.grid2,
+.grid1 .columnR,
+.grid1 .grid2 .columnL {
+	width: 100%;
+}
+
+.grid1 .columnL,
+.grid1 .grid2 .columnR {
+	
+	width: 165px;
+}
+.columnL {
+	vertical-align: top;
+	padding: 0 5px 0 0;
+}
+.columnR {
+	vertical-align: top;
+	padding: 0 0 0 5px;
+}
+.landingcontentcontainer {
+	margin-bottom: 25px;
+}
+.landingcontent
+{
+	border: solid 1px #a7a9ac; 
+	padding: 10px;
+}
+#home {
+	margin-top: 20px;
+}
+
+.fixed {width: 750px;}
+.brace {width: 165px;padding:0;margin:0;}
+
+ p {
+	margin: 0 0 7px 0;
+}
+.copy {
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 10px;
+
+}
+/*=========================================*/
+/*===== GLOBAL STYLES ====================*/
+/*=========================================*/	
+.supportImg {
+	border: 1px solid #66ccff;
+	float: left;
+	margin: 3px 11px 10px 0;
+}
+.space {
+	margin-bottom: 10px;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.emphasis {
+	font-weight: bold;
+}
+.error {
+	font-weight: bold;
+	color: #ff0000;
+}
+.info {
+	font-weight: bold;
+}
+.author {
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+/* Navigation Links */
+a.navLight, 
+a.navLight:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.navDark, 
+a.navDark:visited {
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+
+}
+/* Function Links */
+a.fnLight, 
+a.fnLight:visited {
+	font-size: .92em;
+	color: #ffffff;
+}
+a.fnDark, 
+a.fnDark:visited {
+	font-size: .92em;
+	color: #000000;
+}
+.fnDark {
+	font-size: .92em;
+	color: #000000;
+}
+/* iMOTO Links */
+a.linkbluenou:link,
+a.linkbluenou:visited,
+a.linkbluenou:hover,
+a.linkbluenou:active,
+a.linkboldblue11:link,
+a.linkboldblue11:visited,
+a.linkboldblue11:hover,
+a.linkboldblue11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#FFF;
+	text-decoration: none;
+}
+a.linkbluenou:visited {
+	text-decoration: none;
+	}
+a.linkbluenou:hover {
+	text-decoration: underline;
+}
+a.linkbluenou:active {
+	text-decoration: none;
+}
+a.linkboldblue11:link {
+	font-weight: bold;
+	text-decoration: none;	
+	}
+a.linkboldblue11:visited {
+	font-weight: bold;
+	text-decoration: none;	
+	}
+a.linkboldblue11:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+a.linkboldblue11:active {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+input.arrowButtonLg {
+	
+	vertical-align: bottom;
+	margin-bottom: 2pt;
+}
+input.arrowButtonSm {
+	margin-top: 4pt;
+}
+
+/*=========================================*/
+/*===== MODULE STYLES ====================*/
+/*=========================================*/
+/*===== Global Banner====================*/
+.GlobalBanner {
+	padding: 0;
+	background-color: #565357;
+}
+.GlobalBanner td,
+.GlobalBanneriMOTO td {
+	vertical-align: middle;
+}
+.GlobalBanner .bg {
+}
+.GlobalBanner .logo {
+	width: 1%;
+	padding: 10px 10 10px 15px;
+}
+.GlobalBanner .internal {
+	text-align: right;
+	vertical-align: bottom;
+	font-style: italic;
+	font-size: .65em;
+}
+.GlobalBanneriMOTO .title,
+.GlobalBanner .title {
+	width: 90%;
+	text-align: left;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 9px;
+	color: #FFF;
+	text-transform:uppercase;
+}
+.GlobalBanneriMOTO .title1,
+.GlobalBanner .title1 {
+	width: 90%;
+	text-align: right;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 9px;
+	color: #FFF;
+	text-transform:uppercase;
+	padding-top:55px;
+}
+.GlobalBanneriMOTO .options,
+.GlobalBanner .options {
+	white-space: nowrap;
+	text-align: right;
+	color: #FFF;
+}
+.GlobalBanner .current {
+}
+.GlobalBanner .divider {
+}
+.GlobalBanner .search {
+
+	width: 10%;
+	padding:  0px 0px 15px 0px;
+	white-space: nowrap;
+	vertical-align: bottom;
+
+}
+.GlobalBanner .input.text {
+	width: 8em;
+	margin: 0 45px 0 6px;
+}
+.GlobalBanner .corner {
+	padding: 0;
+	text-align: right;
+	vertical-align: top;
+}
+.GlobalBanner input.arrowButtonLg {
+	margin-top: 1pt;
+}
+.GlobalBanneriMoto {
+}
+.GlobalBanneriMoto .header,
+.GlobalBanner .header {
+background-color: #565357;
+height: 55px;
+width: 100%;
+text-align: left;
+border-width: 0px; border-collapse: collapse;
+}
+.GlobalBanneriMoto .header td,
+.GlobalBanner .header td {
+ padding: 0px;
+ }
+ 
+.GlobalBanneriMoto .subheader, 
+.GlobalBanner .subheader {
+border-top: solid 1px #000;
+background-color: #919295;
+height: 28px;
+}
+
+.GlobalBanneriMoto .subheaderdropshadow,
+.GlobalBanner .subheaderdropshadow {
+background-color: #000;
+height: 1px;
+width: 100%;
+margin-bottom: 5px;
+}
+.GlobalBanneriMoto .searchform,
+.GlobalBanner .searchform {
+font-size: 9px;
+color: #707377;
+height: 18px;
+width: 95px;
+border: 1px;
+border-style: solid;
+border-color: #7f9db9;
+background-color: #F3F3F3;
+}
+
+.GlobalBanneriMoto .searchmenu,
+.GlobalBanner .searchmenu {
+font-size: 9px;
+color: #707377;
+height: 16px;
+width: 90px;
+border: 1px;
+border-style: solid;
+border-color: #7f9db9;
+background-color: #F3F3F3;
+}
+
+.GlobalBanneriMoto .searchbutton,
+.GlobalBanner .searchbutton {
+font-size: 9px;
+color: #707377;
+height: 18px;
+border: 1px;
+border-style: solid;
+border-color: #7f9db9;
+background-color: #F3F3F3;
+width: 20px;
+}
+
+
+/*===== Business / Function Navigation / Global Footer ====================*/
+.BusinessFunctionNavigation, 
+.GlobalFooter {
+	color: #000000;
+	padding: 3px;
+    background-image:url(/images/header_rp.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	font-size: .9em;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color:#a7a9ac;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color:#a7a9ac;
+}
+.GlobalFooter {
+	padding: 8px 8px 8px 8px;
+	margin-top: 50px;
+}
+.GlobalFooteriMoto {
+margin-top: 10px;
+border-top: solid 2px #000;
+border-bottom: solid 2px #000;
+background-color: #565357;
+color: #FFF;
+padding-top: 10px;
+padding-left: 28px;
+padding-bottom: 10px;
+font-weight: bold;
+}
+.GlobalFooteriMoto a:link,
+.GlobalFooteriMoto a:visited,
+.GlobalFooteriMoto a:active {
+font-size: 11px;
+color: #FFF;
+text-decoration: none;
+}
+.GlobalFooteriMoto a:hover {
+text-decoration: underline;
+}
+.GlobalFooteriMoto .copyright {
+font-size: 11px;
+}
+.GlobalFooteriMoto .applinks {
+float: right;
+margin-right: 28px;	
+}
+
+.BusinessFunctionNavigation .left,
+.BusinessFunctionNavigation .left a {
+	color: #000000;
+	vertical-align: middle;
+	text-decoration: none;	
+	padding: 0 8 0 8px;
+}
+.GlobalFooter .left,
+.GlobalFooter .left a {
+	color: #000000;
+	vertical-align: middle;
+	text-decoration: none;	
+	padding: 0 8 0 8px;
+}
+.GlobalFooter .right,
+.GlobalFooter .right a {
+	color: #000000;
+	vertical-align: middle;
+	text-decoration: none;	
+	padding: 0 8 0 8px;
+}
+/*===== Constituency/Section Header====================*/
+.ConstituencySectionHeader  {
+	padding: 0;
+	background-color: #006699;
+}
+.ConstituencySectionHeader .constituency {
+	width: 100%;
+	/*font-size:	1em;*/
+	padding: 10px 10px 10px 15px;
+	color: #ffffff;
+}
+.ConstituencySectionHeader .login {
+	color: #ffffff;
+	text-align: left;
+	padding-right: 38px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.ConstituencySectionHeader .hidden {
+		color: #006699;
+}
+/*===== Basic/Related Copy====================*/
+.BasicCopy,
+.RelatedCopy {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+.BasicCopy .sub,
+.RelatedCopy .sub {
+	margin: 0;
+	padding-top: 10px;
+}
+.BasicCopy h3 {
+	color: #666666;
+}
+.RelatedCopy p {
+	font-size: 9px;
+}
+/*===== Page Introduction====================*/
+.PageIntroduction {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+/*===== Page Header ====================*/
+/*===== Page Sub Header (color 1) ====================*/
+ /*===== Page Sub Header (color 2) ====================*/
+.PageHeader {
+	margin-bottom: 20px;
+}
+#short {
+	margin-bottom: 0;
+}
+.PageHeader .bg, 
+.PageSubHeader1 .bg, 
+.PageSubHeader2 .bg {
+	background-color: #dcdddf;
+}
+.PageHeader td, 
+.PageSubHeader1 td,
+.PageSubHeader2 td {
+	border-bottom: 3px solid #FFFFFF;
+}
+  {
+	border-bottom: 2px solid #FFFFFF;
+}
+.flag {
+	padding: 0 5px 0 5px;
+	background-repeat: no-repeat;
+}
+.PageHeader .flag {
+	background-image: url("/Images/title_corner.gif");
+}
+.PageSubHeader1 .flag {
+	background-image: url("/Images/title_corner.gif");
+}
+.PageSubHeader2 .flag {
+	background-image: url("/Images/title_corner.gif");
+}
+.PageHeader .banner {
+	padding: 5px 0 4px 10px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	font-size: 0.95em;
+	color: #010101;
+	font-weight: bold;
+	text-transform:capitalize;
+	text-align: left;
+}
+.PageSubHeader1 .banner,
+.PageSubHeader2 .banner {
+	color: #010101;
+	font-weight: bold;
+	text-transform:capitalize;
+	text-align: left;
+	padding: 1px 0 1px 10px;
+	vertical-align: middle;
+}
+/*===== Entry Links====================*/
+.EntryLinks {
+	padding: 0;
+	border: 1px solid #3399cc;
+	border-bottom: 4px solid #3399cc;
+	margin-bottom: 2px;
+	width: 165px;
+}
+.EntryLinks .bg1 {
+	background-color: #99cccc;
+}
+.EntryLinks .bg2 {
+	background-color: #99ccff;
+}
+
+.EntryLinks .container {
+	padding: 10px 0;
+}
+.EntryLinks ul{
+	margin: 0;
+	padding:0;
+}
+.EntryLinks li,
+.EntryLinks h2 {
+	list-style: none;
+	text-indent: 0;
+	margin: 0 15px 0 15px;
+	padding: 3px 0 1px 0;
+	border-bottom: 1px solid #ccffff;
+}
+.EntryLinks li.last {
+	border-bottom: 0;
+}
+/*===== Functional Navigation====================*/
+.FunctionalNavigation {
+	padding: 0;
+	background-color: #ffffff;
+	border: 1px solid #3399cc;
+	border-bottom: 4px solid #3399cc;
+	margin-bottom: 2px;
+	width: 165px;
+}
+.FunctionalNavigation ul {
+	margin: 7px 0;
+	padding:0;
+}
+.FunctionalNavigation li {
+	list-style: none;
+	text-indent: 0;
+	margin: 0 15px 0 15px;
+	padding: 3px 0 1px 0;
+	border-bottom: 1px solid #99ccff;
+}
+.FunctionalNavigation li.last {
+	border-bottom: 0;
+}
+.FunctionalNavigation li.current {
+	list-style: none;
+	margin-left: 15px;
+	padding-left: 1em;
+	text-indent: -2em;
+	font-size: .92em;
+}
+.FunctionalNavigation .arrow {
+	font-size: 1.1em;
+	margin: 0 3px 0 0;
+	color: #3399cc;
+	font-weight: bold;
+}
+/*===== Left Hand Navigation====================*/
+.LeftHandNavigation {
+	padding: 0;
+	margin-bottom: 0px;
+	width: 176px;
+	font-size: 15px;
+		background-image: url("http://ecdn.mot.com/standards/images/leftnav_bck.gif");
+	background-repeat: no-repeat;
+}
+.LeftHandNavigation a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+.LeftHandNavigation .container {
+
+	padding: 20px 0px 20px 8px;
+	background-image: url("http://ecdn.mot.com/standards/images/leftnav_bot.gif");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.LeftHandNavigation ul {
+	margin: 0;
+	padding: 0;
+}
+.LeftHandNavigation li {
+	list-style: none;
+	text-indent: 0;
+	margin: 0 8px 0 11px;
+	padding: 3px 0 1px 0;
+	background-image: url("/Images/spacer.gif");
+}
+.LeftHandNavigation ul.sub {
+	border: 0;
+}
+.LeftHandNavigation ul.sub li {
+	margin: 0 0 0 10px;
+}
+.LeftHandNavigation li.parent,
+.LeftHandNavigation li.last {
+	border: 0;
+	padding-bottom: 0px;
+	
+}
+.LeftHandNavigation ul.sub li.last {
+	border: 0;
+	margin: 0 0 0 0px;
+	padding-bottom: 0px;
+
+}
+.LeftHandNavigation a.current,
+.LeftHandNavigation a.currentlast {
+	font-size: 11px;
+	list-style: none;
+	padding-left: 0px;
+	text-indent: 0px;
+	color: #0099d5;
+	font-weight: bold;
+}
+.LeftHandNavigation a.currentlast {
+	border: 0;
+	padding-bottom: 0px;
+}
+.LeftHandNavigation .sub li.current {
+	text-indent: 0px;
+}
+.LeftHandNavigation ul.sub li.currentlast {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	list-style: none;
+	margin-left: 15px;
+	padding-left: 1em;
+	text-indent: -2em;
+	border: 0;
+	margin: 0 0 0 15px;
+	padding-bottom: 15px;
+}
+.LeftHandNavigation .arrow {
+	font-size: 11px;
+	margin: 0 3px 0 0;
+	color: #333333;
+	font-weight: bold;
+}
+.LeftHandNavigation .sub .arrow {
+	margin: 0 3px 0 0;
+}
+.LeftHandNavigation .bottom {
+}
+
+/*===== Horizontal Navigation====================*/
+.HorizontalNavigation {
+	padding: 0;
+	background-color: #FFFFFF;
+
+}
+.HorizontalNavigation a {
+	text-decoration: none;
+}
+.HorizontalNavigation .container {
+	padding: 0 0 0 0;
+}
+.HorizontalNavigation .container .backTab,
+.HorizontalNavigation .container .frontTab,
+.HorizontalNavigation .container .frontTabCurrent,
+.HorizontalNavigation .container .frontRow,
+.HorizontalNavigation .container .frontRowFirst,
+.HorizontalNavigation .container .frontRowCurrent,
+.HorizontalNavigation .container .frontRowCurrentFirst {
+	white-space: nowrap;
+	text-align: center;
+	font-size: 73%;
+}
+.HorizontalNavigation .container .backTab {
+	background-color: #dadada;
+	padding: 2px 2px 2px 5px;
+	background-image: url('/images/bannerCorner.gif');
+	background-repeat: no-repeat;
+	background-position:  top right;
+}
+.HorizontalNavigation .container .backTab a:link {
+	color: #727272;
+}
+.HorizontalNavigation .container .backTab a:visited {
+	color: #727272;
+}
+.HorizontalNavigation .container .frontTab,
+.HorizontalNavigation .container .frontTabCurrent {
+	background-color: #c5c5c5;
+	font-weight: bold;
+	padding: 2px 2px 2px 5px;
+	background-image: url('/images/bannerCorner.gif');
+	background-repeat: no-repeat;
+	background-position:  top right;
+}
+.HorizontalNavigation .container .frontTabCurrent {
+	font-weight: normal;
+}
+.HorizontalNavigation .container .frontRow,
+.HorizontalNavigation .container .frontRowFirst,
+.HorizontalNavigation .container .frontRowCurrent,
+.HorizontalNavigation .container .frontRowCurrentFirst {
+	background-color: #c5c5c5;
+	font-weight: normal;
+	padding: 2px 10px 2px 10px;
+	border-left: 1px solid #B8C0C4;
+	border-bottom: 1px solid #B8C0C4;
+}
+.HorizontalNavigation .container .frontRowCurrent,
+.HorizontalNavigation .container .frontRowCurrentFirst {
+	font-weight: bold;
+}
+.HorizontalNavigation .container .frontRowFirst,
+.HorizontalNavigation .container .frontRowCurrentFirst {
+	border-left: 0;
+}
+.HorizontalNavigation .container .frontTab a:link,
+.HorizontalNavigation .container .frontTabCurrent a:link,
+.HorizontalNavigation .container .frontRow a:link,
+.HorizontalNavigation .container .frontRowFirst a:link,
+.HorizontalNavigation .container .frontRowCurrent a:link,
+.HorizontalNavigation .container .frontRowCurrentFirst a:link {
+	color: #000000;
+}
+.HorizontalNavigation .container .frontTab a:visited,
+.HorizontalNavigation .container .frontTabCurrent a:visited,
+.HorizontalNavigation .container .frontRow a:visited,
+.HorizontalNavigation .container .frontRowFirst a:visited,
+.HorizontalNavigation .container .frontRowCurrent a:visited,
+.HorizontalNavigation .container .frontRowCurrentFirst a:visited {
+	color: #000000;
+}
+/*===== Forms ====================*/
+.Forms {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+}
+.Forms .instruction,
+.Forms .label,
+.Forms .required,
+.Forms .field {
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+}
+.Forms .field {
+	vertical-align: top;
+	padding-bottom: 3px;
+	padding-top: 2px;
+}
+.Forms .required {
+	width: 10px;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 5px 5px 3px 0;
+}
+.Forms .label {
+	width: 200px;
+	vertical-align: top;
+	padding-top: 2px;
+}
+.Forms .label,
+.Forms .instruction {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 20px 3px 0;
+}
+
+.Forms .longSelect select {
+	margin-left: 0;
+}
+/*===== Buttons====================*/
+.Buttons input.systemButton1,
+.Buttons input.systemButton2 {
+	margin-top: 10px;
+	margin-right: 20px;
+	background-color: #cccccc;
+	vertical-align: top;
+	border-bottom: 2px solid #999999; 
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+}
+.Buttons input.systemButton1 {
+	font-weight: bold;
+}
+/*===== Breadcrumb ====================*/
+.Breadcrumb {
+	margin-top: 5px;
+}
+.Breadcrumb .crumbs {
+	padding: 0 0 3px 10px;
+	white-space: nowrap;
+}
+.Breadcrumb a {
+	padding-right: 10px;
+	font-size: .92em;
+}
+.Breadcrumb .current {
+	font-size: .92em;
+}
+/*===== Interior Navigation====================*/
+.InteriorNavigation {
+	border-right: 2px solid #006699;
+	border-left: 1px solid #006699;
+	border-bottom: 2px solid #006699;
+	margin-top: 0;
+	vertical-align: middle;
+}
+.InteriorNavigation td {
+	padding: 5px 5px 5px 6px;
+	vertical-align: middle;
+}
+.InteriorNavigation .flag {
+	background-image: url("/images/interiorNavFlag.gif");
+}
+.InteriorNavigation a {
+	margin: 6px;
+	vertical-align: top;
+	font-size: .92em;
+}
+/*===== Utility Navigation====================*/
+.UtilityNavigation {
+	background-color: #cccccc;
+	border-bottom: 2px solid #666666;
+	margin: 2px 0 20px 0;
+	vertical-align: middle;
+}
+.UtilityNavigation td {
+	padding: 5px 0 5px 15px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.UtilityNavigation a {
+	padding-right: 15px;
+}
+/*===== Search Controls====================*/
+.SearchControls {
+	margin-top: 10px;
+}
+.SearchControls .results {
+	padding: 0 0 5px 25px;
+	font-size: 1em;
+}
+.SearchControls .tab {
+	height: 18px;
+	padding: 0 5px;
+	background-position: top left;
+	background-repeat: repeat-y;
+	background-image: url("/images/searchControlTab.gif");
+}
+.SearchControls .sort, 
+.SearchControls .found {
+	background-color: #99ccff;
+	border-top: 2px solid #006699;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.SearchControls .sort {
+	border-left: 2px solid #ffffff;
+	padding: 2px 0 2px 10px;
+}
+.SearchControls .sort a.fnDark {
+	font-size: 100%;
+}
+.SearchControls .divider {
+	margin: 0 3px;
+	color: #006699;
+}
+.SearchControls .found {
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+/*===== Search Result ====================*/
+.SearchResult {
+	margin-top: 10px;
+}
+.SearchResult td {
+	padding: 10px 25px;
+}
+.SearchResult .bgAlt {
+	background-color: #99ccff;
+}
+/*===== News Briefs====================*/
+.NewsBriefs {
+	margin: 10px 0 0 0;
+}
+.NewsBriefs a {
+	margin-left: 5px;
+}
+.NewsBriefs .arrow {
+	padding: 0 0 0 21px;
+}
+.NewsBriefs .date {
+	width: 25%;
+	/*color: #666666;*/
+	text-align: center;
+}
+.NewsBriefs .content {
+	width: 75%;
+	padding: 0 15px 10px 10px;
+}
+/*=====(CP) Custom Promotion====================*/
+.CustomPromotion .promoImg {
+	padding: 0 0 10px 0;
+}
+/*=====(SP) System Promotion====================*/
+.SystemPromotion td  {
+	padding: 10px 0;
+	margin-bottom: 10px;
+	border-top: 1px solid #cccccc;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.SystemPromotion a:link,
+.SystemPromotion a:visited {
+	color: #666666;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.SystemPromotion .arrow {
+	text-align: right;
+	vertical-align: top;
+	padding: 10px 8px 0 10px;
+}
+.SystemPromotion p {
+	font-size: .92em;
+	padding-left: 2px;
+}
+/*===== Page Navigation ====================*/
+.PageNavigation {
+	margin-top: 10px;
+}
+.PageNavigation .returnTop {
+	padding-left: 25px;
+}
+.PageNavigation .paging {
+	text-align: right;
+}
+.PageNavigation a {
+	margin: 0 5px;
+}
+.PageNavigation .returnTop a.fnDark {
+	font-size: 100%;
+}
+.PageNavigation .current {
+	margin: 0 5px;
+	vertical-align: top;
+}
+/*===== Link Listing ====================*/
+.LinkListing {
+	padding: 0;
+	margin-bottom: 10px;
+}
+.LinkListing th {
+	/*height: 30px;*/
+	/*font-size: .66em;*/
+	font-weight: normal;
+	color: #ffffff;
+	line-height: .98em;
+	background-color: #006699;
+	border-right: 1px solid #ffffff;
+	text-align: left;
+	padding: 5px 10px 6px 11px;
+}
+.LinkListing td {
+	padding: 5px 10px;
+}
+.LinkListing li {
+	list-style: none;
+	padding: 2px 0 2px 0;
+}
+.LinkListing ul {
+	margin:  0 0 20px 0;
+	padding: 0;
+}
+.LinkListing ul.sub {
+	margin-left: 12px; 
+	margin-bottom: 0;
+}
+
+/*=====Related Links====================*/
+.RelatedLinks {
+	margin: 10px 0 20px 0;
+	width: 165px;
+}
+.RelatedLinks .arrow {
+	padding-left: 13px;
+}
+.RelatedLinks a {
+	font-size: .92em;
+	margin-left: 5px;
+}
+.RelatedLinks td {
+	padding: 0 0 5px 0;
+}
+
+/*===== Data Table ====================*/
+.DataTable {
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+.DataTable td,
+.DataTable th {
+	border-right: 1px solid #ffffff;
+	padding: 3px 10px;
+	text-align: center;
+}
+.DataTable th {
+	background-color: #c5c5c5;
+	color: #333333;
+	font-weight: normal;
+}
+.DataTable .bgHeader {
+	background-color: #dcdcdc;
+}
+.DataTable .bgAlt {
+	background-color: #dcdcdc;
+}
+/*=====(HR) Horizontal Rule====================*/
+.HorizontalRule {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 1px solid #cccccc;
+}
+.hrspacerline {
+	color: #cccccc;
+	background-color: #cccccc;
+	width: 100%;
+	height: 1px;
+	border-width: 0;
+}
+/*=====Intranet Specific Styles====================*/
+/*===== Intranet Top Navigation ====================*/
+.IntranetTopNavigation { 
+	font-family:arial,helvetica,sans-serif;
+	font-size: .92em;
+}
+.IntranetTopNavigation a:link,
+.IntranetTopNavigation a:visited {
+	color: #006699;
+}
+/*=====Local/Site Secondary Navigation====================*/
+.LocalSiteNavigation,
+.LocalSiteNavigation a,
+.LocalSiteNavigation a:visited {
+    background-color: #DCDCDC;
+    color: #000000;
+    font-weight: bold;
+	vertical-align: middle;
+}
+.LocalSiteNavigation .left {
+	padding: 1px 2px 1px 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+.LocalSiteNavigation .right {
+	padding: 1px 10px 1px 2px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.titletext {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #003366;
+font-weight: bold;
+}
+
+/*===== Begin: Horizontal Navigation (B) (Added 07/31/08) ====================*/
+
+.HorizontalNavigationB {
+	padding: 0 0 0 0;
+	text-align: left;
+	padding-right: 6px;
+}
+.HorizontalNavigationB .container {
+border: none;
+width: 100%;
+}
+.HorizontalNavigationB .subcontainer {
+background-color: #000;
+}
+.HorizontalNavigationB .container .backTab,
+.HorizontalNavigationB .container .frontTab,
+.HorizontalNavigationB .container .frontTabCurrent {
+	white-space: nowrap;
+	text-align: center;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.HorizontalNavigationB .container .frontRowCurrent,
+.HorizontalNavigationB .container .frontRowCurrentFirst,
+.HorizontalNavigationB .container .frontRowFirst,
+.HorizontalNavigationB .container .frontRow {
+	white-space: nowrap;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+}
+.HorizontalNavigationB .container .backTab {
+	background-color: #757575;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.HorizontalNavigationB .container .backTab a:link,
+.HorizontalNavigationB .container .backTab a:visited {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 11px;
+}
+.HorizontalNavigationB .container .backTab a:hover {
+	color: #FFF;
+	text-decoration: underline;
+	font-size: 11px;
+}
+.HorizontalNavigationB .container .frontTab,
+.HorizontalNavigationB .container .frontTabCurrent {
+	white-space: nowrap;
+	height: 28px;
+	background-color: #000;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.HorizontalNavigationB .container .frontRow,
+.HorizontalNavigationB .container .frontRowFirst,
+.HorizontalNavigationB .container .frontRowCurrent,
+.HorizontalNavigationB .container .frontRowCurrentFirst {
+	background-color: #000;
+	font-weight: normal;
+}
+.HorizontalNavigationB .container .frontRowCurrent,
+.HorizontalNavigationB .container .frontRowCurrentFirst {
+	font-weight: bold;
+}
+.HorizontalNavigationB .container .frontTab a:link,
+.HorizontalNavigationB .container .frontTabCurrent a:link,
+.HorizontalNavigationB .container .frontRow a:link,
+.HorizontalNavigationB .container .frontRowFirst a:link,
+.HorizontalNavigationB .container .frontRowCurrent a:link,
+.HorizontalNavigationB .container .frontRowCurrentFirst a:link,
+.HorizontalNavigationB .container .frontTab a:visited,
+.HorizontalNavigationB .container .frontTabCurrent a:visited,
+.HorizontalNavigationB .container .frontRow a:visited,
+.HorizontalNavigationB .container .frontRowFirst a:visited,
+.HorizontalNavigationB .container .frontRowCurrent a:visited,
+.HorizontalNavigationB .container .frontRowCurrentFirst a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+.HorizontalNavigationB .container .frontTab a:hover,
+.HorizontalNavigationB .container .frontTabCurrent a:hover,
+.HorizontalNavigationB .container .frontRow a:hover,
+.HorizontalNavigationB .container .frontRowFirst a:hover,
+.HorizontalNavigationB .container .frontRowCurrent a:hover,
+.HorizontalNavigationB .container .frontRowCurrentFirst a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/*===== End: Horizontal Navigation (B) (Added 07/31/08) ====================*/
+
+/* ========== Begin: iMOTO Standards ========== */
+
+.PageSubHeaderiMOTO .chromeaction,
+.PageSubHeaderiMOTO .chromeadmin,
+.PageSubHeaderiMOTO .chromealert,
+.PageSubHeaderiMOTO .chromenews,
+.PageSubHeaderiMOTO .chromeresources,
+.PageSubHeaderiMOTO .chromeurgent,
+.PageSubHeaderiMOTO .chromecontent {
+	height: 32px;
+	color: #fff;
+	border: solid 1px #919295;
+	padding-left: 8px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+.PageSubHeaderiMOTO .chromeaction {
+	background-color: #003f58;
+}
+.PageSubHeaderiMOTO .chromeadmin {
+	background-color: #ffc220;
+	color: #000;
+}
+.PageSubHeaderiMOTO .chromealert {
+	background-color: #009bc9;
+}
+.PageSubHeaderiMOTO .chromenews {
+	background-color: #009bc9;
+}
+.PageSubHeaderiMOTO .chromeresources {
+	background-color: #00718f;
+}
+.PageSubHeaderiMOTO .chromeurgent {
+	background-color: #e51b24;
+}
+.PageSubHeaderiMOTO .chromecontent {
+	background-color: #565357;
+
+}
+.PageSubHeaderiMOTO .chromeaction .title,
+.PageSubHeaderiMOTO .chromeadmin .title,
+.PageSubHeaderiMOTO .chromealert .title,
+.PageSubHeaderiMOTO .chromenews .title,
+.PageSubHeaderiMOTO .chromeresources .title,
+.PageSubHeaderiMOTO .chromeurgent .title,
+.PageSubHeaderiMOTO .chromecontent .title {
+	height: 22px;
+	width: 80%; 
+	white-space:nowrap; 
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #fff;
+}
+.PageSubHeaderiMOTO .chromeadmin .title {
+	color: #000;
+}
+.PageSubHeaderiMOTO .chromecontent .title {
+	height: 32px;	
+}
+.PageSubHeaderiMOTO .chromeaction .options,
+.PageSubHeaderiMOTO .chromeadmin .options,
+.PageSubHeaderiMOTO .chromealert .options,
+.PageSubHeaderiMOTO .chromenews .options,
+.PageSubHeaderiMOTO .chromeresources .options,
+.PageSubHeaderiMOTO .chromeurgent .options,
+.PageSubHeaderiMOTO .chromecontent .options {
+	height: 22px;
+	width: 20%; 
+	white-space: nowrap; 
+	text-align: right; 
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.PageSubHeaderiMOTO .chromecontent .options {
+	height: 32px;
+}
+.PageSubHeaderiMOTO .chromedropshadow {
+	height: 0px;
+	background-color: #eff0f0;
+	background-repeat: repeat-x;
+	border-left: solid 1px #919295;
+	border-right: solid 1px #919295;
+}
+.PageSubHeaderiMOTO .chromebg {
+	width: 100%;
+	padding: 8px;
+	background-color: #eff0f0;
+	border-bottom: solid 1px #919295;
+	border-left: solid 1px #919295;
+	border-right: solid 1px #919295;
+	
+}
+.PageSubHeaderiMOTO .chromefeatured {
+	border: solid 1px #b0b0b0;
+	width: 100%;
+	padding: 5 5 5 5;
+	background-color: #ffffff;
+}
+.PageSubHeaderiMOTO .chromefeatured .title {
+	font-size: 25px;
+	color: #000;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.PageSubHeaderiMOTO .chromefeatured .options {
+	height: 22px;
+	width: 20%; 
+	white-space: nowrap; 
+	text-align: right; 
+	vertical-align: top;
+}
+.PageSubHeaderiMOTO .featuredsubtitle,
+.PageSubHeaderiMOTO .portletsubtitle {
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.PageSubHeaderiMOTO .portletsubtitle {
+	color: #383838;
+}
+.PageSubHeaderiMOTO a.portletsubtitlelink:link,
+.PageSubHeaderiMOTO a.portletsubtitlelink:visited,
+.PageSubHeaderiMOTO a.portletsubtitlelink:active {
+	font-size: 12px;
+	font-weight: bold;
+	color:#000;
+	text-decoration: underline;
+}
+.PageSubHeaderiMOTO a.portletsubtitlelink:hover {
+	text-decoration: none;
+}
+.PageSubHeaderiMOTO .contenttipbox {
+	border: solid 1px #b0b0b0;
+	background-color: #ffffff;
+}
+.PageSubHeaderiMOTO .processarrow {
+	background-image: url(/images/process_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 250px;
+	width: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.PageSubHeaderiMOTO .processboxsm {
+	width: 100%;
+	background-color: #ececec;
+}
+.PageSubHeaderiMOTO .processarrowsm {
+	background-image: url(http://ecdn.mot.com/standards/images/process_arrow_sm.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 5%;
+}
+.PageSubHeaderiMOTO .processtextsm {
+	font-size: 12px;
+	font-weight: bold;
+	color:#848484;
+}
+
+/* ======== End: 2.0 Standards ======== */
+
+/* ======== Begin: Breadcrumb Navigation ======== */
+
+a.navlink:link,
+a.navlink:visited,
+a.navlink:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#003366;
+	text-decoration: none;
+}
+a.navlink:hover {
+	text-decoration: underline;
+}
+
+a.navlinkactive:link,
+a.navlinkactive:visited,
+a.navlinkactive:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:#000000;
+	text-decoration: none;
+}
+a.navlinkactive:hover {
+	text-decoration: underline;
+}
+
+.navlinkactivenolink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:#000000;
+	text-decoration: none;
+}
+
+.navsep,
+.navsepactive {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #003366;
+padding-left: 4px;
+padding-right: 4px;
+}
+.navsepactive {
+font-weight: bold;
+}
+/* ======== End: Breadcrumb Navigation ======== */
+
+/* ======== Begin: Standard Links ======== */
+
+/* ============================================================ */
+
+a.linkblue:link,
+a.linkblue:visited,
+a.linkblue:active,
+ {
+	color:#FFF;
+	text-decoration: none;
+}
+a.linkblue:hover {
+	text-decoration: underline;
+}
+
+/* ============================================================ */
+
+a.linkblueu:link,
+a.linkblueu:visited,
+a.linkblueu:active {
+	color:#003366;
+	text-decoration: underline;
+}
+a.linkblueu:hover {
+	text-decoration: none;
+}
+
+/* ============================================================ */
+
+a.linkbluebold:link,
+a.linkbluebold:visited,
+a.linkbluebold:active {
+	font-weight: bold;
+	color:#003366;
+	text-decoration: none;
+}
+a.linkbluebold:hover {
+	text-decoration: underline;
+}
+
+/* ============================================================ */
+
+a.linkblueboldu:link,
+a.linkblueboldu:visited,
+a.linkblueboldu:active {
+	font-weight: bold;
+	color:#003366;
+	text-decoration: underline;
+}
+a.linkblueboldu:hover {
+	text-decoration: none;
+}
+
+/* ============================================================ */
+
+.iMOTOTagCloud a.tag1 { font-size: 9px; font-weight: 100; }
+.iMOTOTagCloud a.tag2 { font-size: 11px; font-weight: 200; }
+.iMOTOTagCloud a.tag3 { font-size: 13px; font-weight: 300; }
+.iMOTOTagCloud a.tag4 { font-size: 13px; font-weight: 400; }
+.iMOTOTagCloud a.tag5 { font-size: 15px; font-weight: 500; }
+.iMOTOTagCloud a.tag6 { font-size: 15px; font-weight: 600; }
+.iMOTOTagCloud a.tag7 { font-size: 17px; font-weight: 700; }
+.iMOTOTagCloud a.tag8 { font-size: 17px; font-weight: 800; }
+.iMOTOTagCloud a.tag9 { font-size: 19px; font-weight: 900; }
+.iMOTOTagCloud a.tag10 { font-size: 19px; font-weight: 900; }
+.iMOTOTagCloud a.tag11 { font-size: 21px; font-weight: 900; }
+.iMOTOTagCloud a.tag12 { font-size: 21px; font-weight: 900; }
+.iMOTOTagCloud a.tag13 { font-size: 21px; font-weight: 900; }
+.iMOTOTagCloud a.tag14 { font-size: 21px; font-weight: 900; }
+.iMOTOTagCloud a.tag15 { font-size: 21px; font-weight: 900; }
+.iMOTOTagCloud a.tag16 { font-size: 24px; font-weight: 900; }
+.iMOTOTagCloud a.tag17 { font-size: 24px; font-weight: 900; }
+.iMOTOTagCloud a.tag18 { font-size: 24px; font-weight: 900; }
+.iMOTOTagCloud a.tag19 { font-size: 24px; font-weight: 900; }
+.iMOTOTagCloud a.tag20 { font-size: 24px; font-weight: 900; }
+.iMOTOTagCloud a { text-decoration: underline; color: #2a5725; }
+.iMOTOTagCloud a:hover { text-decoration: none; }
+.iMOTOTagCloud a:visited { color: #2a5725; }
+
+/* ======== End: Standard Links ======== */
+
+/* ======== Begin: Standard Tabs ======== */
+
+.iMOTOTabs .tab td,
+.iMOTOTabs .tabon td,
+.iMOTOTabs .tablg td,
+.iMOTOTabs .tablgon td {
+vertical-align:middle;
+background-image: url(http://ecdn.mot.com/standards/images/intent_nav_off.gif);
+font-size: 9px;
+font-weight: bold;
+color: #373f68;
+text-align: center;
+text-transform: capitalize;
+cursor: pointer;
+height: 30px;
+white-space: nowrap;
+padding-left: 8px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-top: 4px;
+border-right: solid 1px #9c9fa2;
+}
+.iMOTOTabs .tablg td,
+.iMOTOTabs .tablgon td {
+font-size: 11px;
+}
+.iMOTOTabs .tabon td,
+.iMOTOTabs .tablgon td {
+background-image: url(http://ecdn.mot.com/standards/images/intent_nav_on.gif);
+background-position: top-left;
+background-repeat: no-repeat;
+color: #373f68;
+text-decoration: underline;
+}
+
+/* ======== End: Standard Tabs ======== */
+
+/* ======== Begin: Standard Div Area ======== */
+.iMOTODivs .protectedarea {
+overflow: auto;
+height: 105px;
+padding: 5 0 5 5;
+text-align: left;
+background-color: #ffffff;
+scrollbar-track-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;
+scrollbar-arrow-color: #838383;
+scrollbar-darkshadow-color: #ffffff;
+scrollbar-face-color: #d5d5d5;
+scrollbar-highlight-color: #ffffff;
+scrollbar-shadow-color: #ffffff;
+}
+.iMOTODivs .protectedarea .image {
+vertical-align: top;
+text-align: left;
+width: 1%;
+}
+.iMOTODivs .protectedarea .content {
+vertical-align: top;
+text-align: left;
+width: 100%;
+}
+.iMOTODivs .protectedarea .date,
+.iMOTODivs .protectedarea .datelg {
+font-size: 0.55em;
+text-transform: uppercase;
+color: #999999;
+font-weight: bold;
+white-space: nowrap;
+padding-right: 5px;
+padding-top: 3px;
+vertical-align: top;
+height: 15px;
+width: 1%;
+}
+.iMOTODivs .protectedarea .datelg {
+font-size: 0.8em;
+}
+.iMOTODivs .protectedarea .headlinelink {
+width: 100%;
+vertical-align: top;
+}
+.iMOTODivs .protectedarea .headlinelink a:link,
+.iMOTODivs .protectedarea .headlinelink a:visited,
+.iMOTODivs .protectedarea .headlinelink a:active {
+color: #003366;
+padding-right: 5px;
+padding-bottom: 7px;
+text-decoration: underline;
+}
+.iMOTODivs .protectedarea .headlinelink a:hover {
+text-decoration: none;
+}
+.iMOTODivs .protectedarea .content a:link,
+.iMOTODivs .protectedarea .content a:visited,
+.iMOTODivs .protectedarea .content a:active {
+color: #003366;
+padding-right: 5px;
+padding-bottom: 7px;
+text-decoration: underline;
+}
+.iMOTODivs .protectedarea .content a:hover {
+text-decoration: none;
+}
+
+/* ======== End: Standard Div Area ======== */
+
+/* ======== Begin: Bullets ======== */
+
+.iMOTOBullets .bullet,
+.iMOTOBullets .bullet td {
+	vertical-align: top;
+	border: none;
+}
+.iMOTOBullets .bulletsub,
+.iMOTOBullets .bulletsub td {
+	padding: 1px 1px 1px 2px;
+	vertical-align: top;
+	border: none;
+}
+
+/* ======== End: Bullets ======== */
+˙vÔëé      h êh ìHc#h	H   V    O^partitionKey=%28https%2Cmotorola.com%29,:https://mqs.motorola.com/Style/intranet.css strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+content-type: text/css
+last-modified: Fri, 04 May 2012 18:59:42 GMT
+accept-ranges: bytes
+etag: "0a3d10282acd1:0"
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+x-ua-compatible: IE=9; IE=8; IE=6; IE=5
+date: Wed, 16 Apr 2025 20:05:36 GMT
+content-length: 36419
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/css
+last-modified: Fri, 04 May 2012 18:59:42 GMT
+accept-ranges: bytes
+etag: "0a3d10282acd1:0"
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+x-ua-compatible: IE=9; IE=8; IE=6; IE=5
+date: Wed, 16 Apr 2025 20:05:36 GMT
+content-length: 36419
+X-Firefox-Spdy: h2
+ ctid 5 uncompressed-len 0 net-response-time-onstart 917 net-response-time-onstop 2688   éC

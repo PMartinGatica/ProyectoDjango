@@ -1,0 +1,191 @@
+import React, { useState, useEffect } from 'react'
+import {
+  Home, CheckSquare, BarChart3, Rocket, Folder, BookOpen,
+  Menu, X, User, AlertTriangle
+} from 'lucide-react'
+
+// --- LoginScreen ---
+function LoginScreen({ onLogin }) {
+  const [error, setError] = useState('')
+  const handleLogin = () => {
+    const success = onLogin('usuario@newsan.com.ar', '1234')
+    if (!success) setError('Usuario o contraseña incorrectos')
+  }
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-sm">
+        <h2 className="text-2xl font-semibold text-center mb-6">Plataforma Control Calidad</h2>
+        <button
+          onClick={handleLogin}
+          className="w-full flex items-center justify-center bg-[#E30613] hover:bg-red-700 text-white py-2 rounded-md transition"
+        >
+          <User className="w-5 h-5 mr-2" /> Iniciar sesión
+        </button>
+        {error && (
+          <div className="mt-4 flex items-center text-red-600">
+            <AlertTriangle className="w-5 h-5 mr-2" /> {error}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// --- WelcomeMessage ---
+function WelcomeMessage({ user, onFadeComplete }) {
+  useEffect(() => {
+    const t1 = setTimeout(onFadeComplete, 2000)
+    return () => clearTimeout(t1)
+  }, [onFadeComplete])
+  return (
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-100 z-50">
+      <h1 className="text-3xl font-bold text-[#E30613]">
+        ¡Bienvenido, {user.name}!
+      </h1>
+    </div>
+  )
+}
+
+// --- Sidebar ---
+function Sidebar({ isOpen, toggle, activePage, setActivePage }) {
+  const items = [
+    'Inicio', 'MQS', 'MES', 'Yield', 'Sampling', 'Controles', 'Reportes'
+  ]
+  return (
+    <aside
+      className={`fixed inset-y-0 left-0 w-64 bg-gray-800 text-white transform transition-transform duration-300 z-20 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+    >
+      <div className="flex items-center justify-between h-16 px-4 border-b border-gray-700">
+        <span className="font-bold">Quality</span>
+        <button onClick={toggle}><X className="w-6 h-6" /></button>
+      </div>
+      <nav className="mt-4">
+        {items.map(key => (
+          <button
+            key={key}
+            onClick={() => { setActivePage(key); toggle() }}
+            className={`flex items-center w-full px-4 py-3 hover:bg-gray-700 ${activePage === key ? 'bg-gray-700' : ''}`}
+          >
+            {key}
+          </button>
+        ))}
+      </nav>
+    </aside>
+  )
+}
+
+// --- Header ---
+function Header({ toggleSidebar, activePage }) {
+  return (
+    <header className="flex items-center justify-between bg-white h-16 px-4 shadow-md fixed top-0 left-0 right-0 z-10">
+      <button onClick={toggleSidebar} className="md:hidden">
+        <Menu className="w-6 h-6 text-gray-700" />
+      </button>
+      <h1 className="text-xl font-semibold text-gray-800">
+        {activePage}
+      </h1>
+      <User className="w-6 h-6 text-gray-600" />
+    </header>
+  )
+}
+
+// --- Placeholder Pages ---
+function ControlesPage() { return <div className="p-4 bg-white rounded-lg shadow mt-20">Tabla de Controles Diarios</div> }
+function ReportesPage()  { return <div className="p-4 bg-white rounded-lg shadow mt-20">Reportes</div> }
+
+// --- API Fetch Hooks ---
+function useFetch(endpoint) {
+  const [data, setData] = useState(null)
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    let isMounted = true
+    async function fetchData() {
+      try {
+        const res = await fetch(endpoint)
+        if (!res.ok) throw new Error(res.statusText)
+        const json = await res.json()
+        if (isMounted) setData(json)
+      } catch {
+        if (isMounted) setError('Error cargando datos')
+      } finally {
+        if (isMounted) setLoading(false)
+      }
+    }
+    fetchData()
+    return () => { isMounted = false }
+  }, [endpoint])
+  return { data, error, loading }
+}
+
+// --- DashboardLayout ---
+function DashboardLayout({ user }) {
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [activePage, setActivePage] = useState('Inicio')
+  const toggle = () => setSidebarOpen(o => !o)
+
+  // Ajusta aquí la URL base según tu backend
+  const API_BASE = 'http://localhost:8000/api'
+  const mqs      = useFetch(`${API_BASE}/mqs/`)
+  const mes      = useFetch(`${API_BASE}/mes/`)
+  const yieldD   = useFetch(`${API_BASE}/yield/`)
+  const sampling = useFetch(`${API_BASE}/sampling/`)
+
+  const renderContent = () => {
+    switch(activePage) {
+      case 'MQS':
+        if (mqs.loading) return <div className="mt-20">Cargando MQS...</div>
+        if (mqs.error)   return <div className="mt-20 text-red-600">{mqs.error}</div>
+        return <pre className="mt-20 p-4 bg-white rounded-lg shadow overflow-auto">{JSON.stringify(mqs.data, null, 2)}</pre>
+      case 'MES':
+        if (mes.loading) return <div className="mt-20">Cargando MES...</div>
+        if (mes.error)   return <div className="mt-20 text-red-600">{mes.error}</div>
+        return <pre className="mt-20 p-4 bg-white rounded-lg shadow overflow-auto">{JSON.stringify(mes.data, null, 2)}</pre>
+      case 'Yield':
+        if (yieldD.loading) return <div className="mt-20">Cargando Yield...</div>
+        if (yieldD.error)   return <div className="mt-20 text-red-600">{yieldD.error}</div>
+        return <pre className="mt-20 p-4 bg-white rounded-lg shadow overflow-auto">{JSON.stringify(yieldD.data, null, 2)}</pre>
+      case 'Sampling':
+        if (sampling.loading) return <div className="mt-20">Cargando Sampling...</div>
+        if (sampling.error)   return <div className="mt-20 text-red-600">{sampling.error}</div>
+        return <pre className="mt-20 p-4 bg-white rounded-lg shadow overflow-auto">{JSON.stringify(sampling.data, null, 2)}</pre>
+      case 'Controles': return <ControlesPage />
+      case 'Reportes':  return <ReportesPage />
+      default:          return <div className="mt-20">Bienvenido, selecciona un módulo</div>
+    }
+  }
+
+  return (
+    <div className="flex h-screen bg-gray-100">
+      <Sidebar isOpen={sidebarOpen} toggle={toggle} activePage={activePage} setActivePage={setActivePage} />
+      {sidebarOpen && <div className="fixed inset-0 bg-black bg-opacity-50 z-10" onClick={toggle} />}
+      <div className="flex-1 flex flex-col">
+        <Header toggleSidebar={toggle} activePage={activePage} />
+        <main className="p-4 mt-16 overflow-auto flex-1">
+          {renderContent()}
+        </main>
+      </div>
+    </div>
+  )
+}
+
+// --- App ---
+export default function App() {
+  const [isAuth, setIsAuth] = useState(false)
+  const [user, setUser] = useState(null)
+  const [showWelcome, setShowWelcome] = useState(false)
+
+  const handleLogin = (username, password) => {
+    if (username.toLowerCase() === 'usuario@newsan.com.ar' && password === '1234') {
+      setUser({ name: 'Usuario Newsan', role: 'Analista' })
+      setIsAuth(true)
+      setShowWelcome(true)
+      return true
+    }
+    return false
+  }
+
+  if (!isAuth) return <LoginScreen onLogin={handleLogin} />
+  if (showWelcome) return <WelcomeMessage user={user} onFadeComplete={() => setShowWelcome(false)} />
+  return <DashboardLayout user={user} />
+}

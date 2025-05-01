@@ -1,0 +1,19 @@
+Listado de rutas de carpetas para el volumen Windows
+El n£mero de serie del volumen es E27B-BD1E
+C:.
+    estructura.txt
+    Firefox.py
+    MES-ahora.py
+    MES.py
+    MQS-turno.py
+    MQS.py
+    Pendientes-ahora.py
+    Pendientes.py
+    Sampling-CQA.py
+    Sampling-hoy.py
+    Sampling-OQC.py
+    YieldTurno-ahora.py
+    YieldTurno.py
+    
+No existe ninguna subcarpeta 
+
