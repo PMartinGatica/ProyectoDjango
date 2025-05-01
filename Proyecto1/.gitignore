@@ -25,6 +25,11 @@ Descargas/
 *.xlsx
 *.csv
 
+
+# Ignorar binarios de Firefox
+Proyecto1/backend/App/Firefox/xul.dll
+
+
 # VSCode
 .vscode/
 
